@@ -1,0 +1,143 @@
+[06Oct2026 03:31:48.003] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[06Oct2026 03:31:48.007] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.20.1 by Ubuntu; OS Linux arch amd64 version 6.8.0-1064-azure
+[06Oct2026 03:31:48.183] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[06Oct2026 03:31:48.231] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/bugsolved496/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[06Oct2026 03:31:48.570] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/bugsolved496/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
+[06Oct2026 03:31:48.572] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/bugsolved496/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[06Oct2026 03:31:48.574] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/bugsolved496/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[06Oct2026 03:31:48.576] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/bugsolved496/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[06Oct2026 03:31:48.904] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 8 dependencies adding them to mods collection
+[06Oct2026 03:31:50.794] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[06Oct2026 03:31:50.894] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[06Oct2026 03:31:50.967] [main/INFO] [com.abdelaziz.saturn.common.Saturn/]: Loaded Saturn config file with 4 configurable options
+[06Oct2026 03:31:51.154] [main/INFO] [one.pkg.config.SewliaConfig/]: All configurations saved
+[06Oct2026 03:31:51.191] [main/INFO] [one.pkg.config.SewliaConfig/]: Reloaded configuration: ModConfig
+[06Oct2026 03:31:51.192] [main/INFO] [one.pkg.config.SewliaConfig/]: Successfully initialized configuration manager, loaded 1 configuration classes
+[06Oct2026 03:31:51.446] [main/INFO] [ModernFix/]: Loaded configuration file for ModernFix 5.27.76+mc1.20.1: 110 options available, 1 override(s) found
+[06Oct2026 03:31:51.447] [main/WARN] [ModernFix/]: Option 'mixin.perf.thread_priorities' overriden (by mods [smoothboot]) to 'false'
+[06Oct2026 03:31:51.448] [main/INFO] [ModernFix/]: Applying Nashorn fix
+[06Oct2026 03:31:51.496] [main/INFO] [ModernFix/]: Applied Forge config corruption patch
+[06Oct2026 03:31:51.535] [main/INFO] [Canary/]: Loaded configuration file for Canary: 116 options available, 0 override(s) found
+[06Oct2026 03:31:52.307] [main/INFO] [KryptonReno ModMixin/]: Mixin one.pkg.kreno.mixin.network.experimental.RconClientMixin disabled
+[06Oct2026 03:31:52.309] [main/INFO] [KryptonReno ModMixin/]: Mixin one.pkg.kreno.mixin.network.microopt.FriendlyByteBufUtfMixin enabled
+[06Oct2026 03:31:52.310] [main/INFO] [KryptonReno ModMixin/]: Mixin one.pkg.kreno.mixin.network.microopt.FriendlyByteBufVarIntMixin enabled
+[06Oct2026 03:31:52.310] [main/INFO] [KryptonReno ModMixin/]: Mixin one.pkg.kreno.mixin.network.microopt.FriendlyByteBufVarLongMixin enabled
+[06Oct2026 03:31:52.311] [main/INFO] [KryptonReno ModMixin/]: Mixin one.pkg.kreno.mixin.network.microopt.ServerEntityMixin enabled
+[06Oct2026 03:31:52.312] [main/INFO] [KryptonReno ModMixin/]: Mixin one.pkg.kreno.mixin.network.pipeline.LegacyQueryHandlerMixin enabled
+[06Oct2026 03:31:52.312] [main/INFO] [KryptonReno ModMixin/]: Mixin one.pkg.kreno.mixin.network.pipeline.Varint21FrameDecoderMixin enabled
+[06Oct2026 03:31:52.317] [main/INFO] [KryptonReno ModMixin/]: Mixin one.pkg.kreno.mixin.network.pipeline.compression.ConnectionMixin enabled
+[06Oct2026 03:31:52.318] [main/INFO] [KryptonReno ModMixin/]: Mixin one.pkg.kreno.mixin.network.pipeline.encryption.ConnectionMixin enabled
+[06Oct2026 03:31:52.318] [main/INFO] [KryptonReno ModMixin/]: Mixin one.pkg.kreno.mixin.network.pipeline.encryption.ServerLoginPacketListenerImplMixin enabled
+[06Oct2026 03:31:52.362] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[06Oct2026 03:31:52.383] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[06Oct2026 03:31:53.229] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.2).
+[06Oct2026 03:31:53.596] [main/INFO] [Smooth Boot (Reloaded)/]: Smooth Boot (Reloaded) config initialized
+[06Oct2026 03:31:53.920] [main/INFO] [net.minecraft.server.Bootstrap/]: ModernFix reached bootstrap stage (8.539 s after launch)
+[06Oct2026 03:31:54.063] [main/WARN] [mixin/]: @Final field delegatesByName:Ljava/util/Map; in modernfix-modernfix.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
+[06Oct2026 03:31:54.064] [main/WARN] [mixin/]: @Final field delegatesByValue:Ljava/util/Map; in modernfix-modernfix.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
+[06Oct2026 03:31:54.193] [main/INFO] [ModernFix/]: Injecting BlockStateBase cache population hook into getNeighborPathNodeType from com.abdelaziz.canary.mixin.ai.pathing.BlockStateBaseMixin
+[06Oct2026 03:31:54.194] [main/INFO] [ModernFix/]: Injecting BlockStateBase cache population hook into getPathNodeType from com.abdelaziz.canary.mixin.ai.pathing.BlockStateBaseMixin
+[06Oct2026 03:31:55.557] [main/INFO] [net.minecraft.server.Bootstrap/]: Vanilla bootstrap took 1622 milliseconds
+[06Oct2026 03:31:56.176] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[06Oct2026 03:31:56.177] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[06Oct2026 03:31:56.189] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[06Oct2026 03:31:56.189] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[06Oct2026 03:31:58.303] [main/WARN] [mixin/]: Method overwrite conflict for m_47505_ in modernfix-modernfix.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin, previously written by com.abdelaziz.saturn.mixin.leaks.biome_temperature_cache.BiomeMixin. Skipping method.
+[06Oct2026 03:31:58.776] [modloading-worker-0/WARN] [one.pkg.kreno.shared.ModSharedBootstrap/]: ================= KRYPTON RENO =================
+[06Oct2026 03:31:58.776] [modloading-worker-0/WARN] [one.pkg.kreno.shared.ModSharedBootstrap/]: Do not send messages about your game malfunctioning due to KryptonReno in places the author cannot see.
+[06Oct2026 03:31:58.776] [modloading-worker-0/WARN] [one.pkg.kreno.shared.ModSharedBootstrap/]: The author is unaware of this bug and therefore cannot fix it!
+[06Oct2026 03:31:58.777] [modloading-worker-0/WARN] [one.pkg.kreno.shared.ModSharedBootstrap/]: Please send feedback via CurseForge, Github, or Discord so the author can quickly locate the issue!
+[06Oct2026 03:31:58.777] [modloading-worker-0/WARN] [one.pkg.kreno.shared.ModSharedBootstrap/]: ===============================================
+[06Oct2026 03:31:58.777] [modloading-worker-0/INFO] [one.pkg.kreno.shared.ModSharedBootstrap/]: Krypton is now accelerating your Minecraft server's networking stack 🚀
+[06Oct2026 03:31:58.825] [modloading-worker-0/WARN] [com.cupboard.Cupboard/]: Config cupboard.json not found, recreating default
+[06Oct2026 03:31:58.834] [modloading-worker-0/INFO] [com.cupboard.Cupboard/]: Loaded config for: cupboard.json
+[06Oct2026 03:31:58.858] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
+[06Oct2026 03:31:58.858] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
+[06Oct2026 03:31:58.861] [modloading-worker-0/INFO] [one.pkg.kreno.shared.ModSharedBootstrap/]: Compression will use libdeflate (Linux x86_64), encryption will use OpenSSL 3.x.x (Linux x86_64)
+[06Oct2026 03:32:00.402] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /workspaces/bugsolved496/servidor_minecraft/config/modernfix-common.toml is not correct. Correcting
+[06Oct2026 03:32:00.403] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key blacklist_async_jei_plugins was corrected from null to its default, [jepb:jei_plugin]. 
+[06Oct2026 03:32:00.556] [modloading-worker-0/INFO] [com.connectivity.Connectivity/]: Connectivity initialized
+[06Oct2026 03:32:00.688] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [saturn] Starting version check at https://github.com/AbdElAziz333/Saturn/raw/mc1.20.1/dev/updates.json
+[06Oct2026 03:32:01.176] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 9 column 1 path $
+	at com.google.gson.Gson.fromJson(Gson.java:1226) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1124) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1034) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:969) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:183) ~[fmlcore-1.20.1-47.3.7.jar%23132!/:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
+	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:114) ~[fmlcore-1.20.1-47.3.7.jar%23132!/:?]
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 9 column 1 path $
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:393) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:182) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:144) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	... 6 more
+[06Oct2026 03:32:01.179] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [kreno] Starting version check at https://mvnc.pkg.one/update/mod/krypton_fnp/forge_update.json
+[06Oct2026 03:32:01.329] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [kreno] Found status: UP_TO_DATE Current: 26.1.1-1.20.1 Target: null
+[06Oct2026 03:32:01.331] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [smoothboot] Starting version check at https://github.com/AbdElAziz333/SmoothBoot-Reloaded/raw/mc1.20.1/dev/updates.json
+[06Oct2026 03:32:01.414] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 9 column 1 path $
+	at com.google.gson.Gson.fromJson(Gson.java:1226) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1124) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1034) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:969) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:183) ~[fmlcore-1.20.1-47.3.7.jar%23132!/:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
+	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:114) ~[fmlcore-1.20.1-47.3.7.jar%23132!/:?]
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 9 column 1 path $
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:393) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:182) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:144) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	... 6 more
+[06Oct2026 03:32:01.415] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [canary] Starting version check at https://github.com/AbdElAziz333/Canary/raw/mc1.19.2/dev/updates.json
+[06Oct2026 03:32:01.625] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 9 column 1 path $
+	at com.google.gson.Gson.fromJson(Gson.java:1226) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1124) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1034) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:969) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:183) ~[fmlcore-1.20.1-47.3.7.jar%23132!/:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
+	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:114) ~[fmlcore-1.20.1-47.3.7.jar%23132!/:?]
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 9 column 1 path $
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:393) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:182) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:144) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	... 6 more
+[06Oct2026 03:32:01.626] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[06Oct2026 03:32:01.639] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[06Oct2026 03:32:01.761] [main/INFO] [ModernFix/]: Bypassed Mojang DFU
+[06Oct2026 03:32:01.801] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.4.10
+[06Oct2026 03:32:01.985] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/bugsolved496/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23131!/assets/.mcassetsroot' uses unexpected schema
+[06Oct2026 03:32:01.985] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/bugsolved496/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23131!/data/.mcassetsroot' uses unexpected schema
+[06Oct2026 03:32:03.711] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
+[06Oct2026 03:32:03.873] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1271 advancements
+[06Oct2026 03:32:03.876] [main/INFO] [placebo/]: Registered 0 additional recipes.
+[06Oct2026 03:32:03.881] [main/INFO] [placebo/]: Registered 0 gear_sets.
+[06Oct2026 03:32:03.926] [main/WARN] [ModernFix/]: Initial datapack load took 1.913 s
+[06Oct2026 03:32:04.017] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[06Oct2026 03:32:04.018] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[06Oct2026 03:32:04.018] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[06Oct2026 03:32:04.018] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[06Oct2026 03:32:04.177] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[06Oct2026 03:32:04.200] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[06Oct2026 03:32:04.384] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[06Oct2026 03:32:05.035] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[06Oct2026 03:32:05.041] [Server thread/WARN] [mixin/]: Method overwrite conflict for removeIf in canary.mixins.json:world.chunk_tickets.SortedArraySetMixin, previously written by org.embeddedt.modernfix.common.mixin.bugfix.paper_chunk_patches.SortedArraySetMixin. Skipping method.
+[06Oct2026 03:32:07.916] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[06Oct2026 03:32:07.917] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[06Oct2026 03:32:07.918] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[06Oct2026 03:32:07.918] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[06Oct2026 03:32:07.919] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[06Oct2026 03:32:07.919] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[06Oct2026 03:32:08.059] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[06Oct2026 03:32:08.850] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 3815 ms
+[06Oct2026 03:32:08.851] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (4.508s)! For help, type "help"
+[06Oct2026 03:32:08.876] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[06Oct2026 03:32:08.876] [Server thread/WARN] [com.cupboard.Cupboard/]: Config connectivity.json not found, recreating default
+[06Oct2026 03:32:08.878] [Server thread/INFO] [com.cupboard.Cupboard/]: Loaded config for: connectivity.json
+[06Oct2026 03:32:08.879] [Server thread/WARN] [ModernFix/]: Dedicated server took 23.499 seconds to load
+[06Oct2026 03:32:09.136] [Server thread/INFO] [STDOUT/]: [com.abdelaziz.canary.common.block.TrackedBlockStatePredicate:<clinit>:14]: Canary Cached BlockState Flags are disabled!
